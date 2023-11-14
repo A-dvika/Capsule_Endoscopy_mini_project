@@ -2,7 +2,12 @@
 
 # Capsule Endoscopy
 
-Capsule Endoscopy (CE) is a non-invasive medical imaging technique that utilizes a small wireless camera embedded in a capsule to capture images of the digestive tract. This innovative technology allows for a thorough examination of the gastrointestinal system, aiding in the detection and diagnosis of various conditions. CE is particularly useful in visualizing areas that are challenging to reach with traditional endoscopy methods. 
+Capsule Endoscopy (CE) is a non-invasive medical imaging technique that utilizes a small wireless camera embedded in a capsule to capture images of the digestive tract. This innovative technology allows for a thorough examination of the gastrointestinal system, aiding in the detection and diagnosis of various conditions. CE is particularly useful in visualizing areas that are challenging to reach with traditional endoscopy methods.
+
+
+
+
+
 ![image](https://github.com/A-dvika/Capsule_Endoscopy_mini_project/assets/115079077/86a06aa8-886d-4152-a690-1cd27929f684)
 
 
