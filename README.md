@@ -11,8 +11,8 @@ Capsule Endoscopy (CE) is a non-invasive medical imaging technique that utilizes
 ![image](https://github.com/A-dvika/Capsule_Endoscopy_mini_project/assets/115079077/86a06aa8-886d-4152-a690-1cd27929f684)
 
 
+![image](https://github.com/A-dvika/Capsule_Endoscopy_mini_project/assets/115079077/641df251-a730-4841-9ffc-12bd7bbaf6e4)
 
-![image](https://github.com/A-dvika/Capsule_Endoscopy_mini_project/assets/115079077/aad44742-56ea-492c-930e-af6d54da84cf)
 
 
 
@@ -53,6 +53,55 @@ Healthcare providers can optimize resources by automating the initial screening 
 
 ### Contribution to Research: 
 The project's datasets contribute to ongoing research in medical imaging and AI, fostering advancements in understanding and addressing gastrointestinal conditions.
+
+# ClassifyViStA: Medical Image Classification and Segmentation
+
+## Overview
+
+This project implements a neural network architecture, called ClassifyViStA, designed for medical image classification and segmentation tasks. The architecture combines features from ResNet-18, VGG16, and a U-net styled decoder. It performs simultaneous image classification and segmentation on medical images, leveraging both global and local features.
+
+## Architecture
+
+### 1. ResNet-18 Model (CustomResNet18WithMask)
+
+- **Backbone:**
+  - ResNet-18 for feature extraction.
+  - Modified final fully connected layer for binary classification.
+
+- **Additional Layers:**
+  - Convolutional layer (`center`) for additional processing.
+  - U-net styled decoder (`Decoder` class) for segmentation.
+
+- **Output:**
+  - Predictions for classification (`img_output`) and segmentation (`seg`).
+
+### 2. VGG16 Model (CustomVGGWithMask)
+
+- **Backbone:**
+  - VGG16 for feature extraction.
+  - Modified final fully connected layer for binary classification.
+
+- **Additional Layers:**
+  - Convolutional layer (`center`) for additional processing.
+  - U-net styled decoder (`Decoder` class) for segmentation.
+
+- **Output:**
+  - Predictions for classification (`img_output`) and segmentation (`seg`).
+
+### 3. Common Elements
+
+- Both models take input images and masks.
+- Masks are downsampled for segmentation enhancement.
+- Segmentation branch includes decoding layers for gradual upsampling.
+
+## Training
+
+- Loss function: Binary cross-entropy and a custom hybrid segmentation loss.
+- Data augmentation techniques: flipping, rotation, and blurring.
+- Training loop iterates over epochs, updating parameters using SGD.
+- Evaluation metrics: Accuracy, precision, recall, and F1-score.
+
+
 ## Evaluation Metrics
 
  ### Classification Metrics
@@ -84,7 +133,7 @@ The project's datasets contribute to ongoing research in medical imaging and AI,
 |**Images** | <img src="Images_README\validation_dataset\classification_and_detection\img- (608).png" alt="Image 1">| <img src="Images_README\validation_dataset\classification_and_detection\img- (609).png" alt="Image 1">|<img src="Images_README\validation_dataset\classification_and_detection\img- (797).png" alt="Image 1">| <img src="Images_README\validation_dataset\classification_and_detection\img- (908).png" alt="Image 1">|<img src="Images_README\validation_dataset\classification_and_detection\img- (912).png" alt="Image 1">|
 |**Confidance**| 0.96 | 0.96 |0.97 | 0.97 |0.97 |
 
-## Interpretability Plots (Cam Plots of 2nd last layer)
+## Interpretability Plots 
 
 | **Imagename** | **img- (271).png** | **img- (386).png**|**img- (389).png**|**img- (406).png**|**img- (409).png**|
 |------ |---------------------|---------------------|---------------------|---------------------|---------------------|
