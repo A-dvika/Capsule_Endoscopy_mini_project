@@ -54,7 +54,7 @@ Healthcare providers can optimize resources by automating the initial screening 
 ### Contribution to Research: 
 The project's datasets contribute to ongoing research in medical imaging and AI, fostering advancements in understanding and addressing gastrointestinal conditions.
 
-# ClassifyViStA: Medical Image Classification and Segmentation
+# MedNet: Medical Image Classification and Segmentation
 
 ## Overview
 
@@ -101,4 +101,23 @@ This project implements a neural network architecture, called ClassifyViStA, des
 - Training loop iterates over epochs, updating parameters using SGD.
 - Evaluation metrics: Accuracy, precision, recall, and F1-score.
 
+# YOLOv8 Bleeding Frames Detection
+
+code for detecting bleeding frames in medical images using YOLOv8, a state-of-the-art object detection model. The trained model is capable of identifying regions of interest indicating potential bleeding in medical images.
+
+## Features
+
+- **Object Detection:** Utilizes YOLOv8 for accurate and efficient object detection.
+- **Bleeding Frames:** Specifically trained to detect bleeding frames in medical images.
+- **Configurable Options:** Adjustable parameters for fine-tuning detection performance.
+
+## Usage
+
+1. Clone the repository: `git clone https://github.com/yourusername/your-repo.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run bleeding frames detection: `python detect_bleeding.py --source /path/to/images`
+
+## Pre-trained Model
+
+The YOLOv8 model for bleeding frames detection is pre-trained and included in the `pretrained_models` directory. 
 
