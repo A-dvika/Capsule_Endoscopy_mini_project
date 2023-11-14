@@ -11,6 +11,11 @@ Capsule Endoscopy (CE) is a non-invasive medical imaging technique that utilizes
 ![image](https://github.com/A-dvika/Capsule_Endoscopy_mini_project/assets/115079077/86a06aa8-886d-4152-a690-1cd27929f684)
 
 
+
+![image](https://github.com/A-dvika/Capsule_Endoscopy_mini_project/assets/115079077/aad44742-56ea-492c-930e-af6d54da84cf)
+
+
+
 ## Overview
 This project focuses on leveraging Artificial Intelligence (AI) for bleeding detection in Capsule Endoscopy (CE) videos. The AI model is trained on a dataset comprising 2618 annotated frames, encompassing various gastrointestinal bleeding instances. The goal is to enhance the efficiency, accuracy, and accessibility of bleeding detection in the context of non-invasive medical imaging.
 
