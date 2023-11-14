@@ -4,32 +4,32 @@
 
 Capsule Endoscopy (CE) is a non-invasive medical imaging technique that utilizes a small wireless camera embedded in a capsule to capture images of the digestive tract. This innovative technology allows for a thorough examination of the gastrointestinal system, aiding in the detection and diagnosis of various conditions. CE is particularly useful in visualizing areas that are challenging to reach with traditional endoscopy methods. 
 
-##Overview
+## Overview
 This project focuses on leveraging Artificial Intelligence (AI) for bleeding detection in Capsule Endoscopy (CE) videos. The AI model is trained on a dataset comprising 2618 annotated frames, encompassing various gastrointestinal bleeding instances. The goal is to enhance the efficiency, accuracy, and accessibility of bleeding detection in the context of non-invasive medical imaging.
 
-##Key Features
-###Early Detection: The AI model enables early identification of gastrointestinal bleeding, facilitating timely medical intervention.
+## Key Features
+### Early Detection: The AI model enables early identification of gastrointestinal bleeding, facilitating timely medical intervention.
 
-###Non-Invasive Approach: Capitalizing on the non-invasive nature of Capsule Endoscopy, the project offers a patient-friendly diagnostic process.
+### Non-Invasive Approach: Capitalizing on the non-invasive nature of Capsule Endoscopy, the project offers a patient-friendly diagnostic process.
 
-###Efficiency and Speed: Rapid processing of large CE video datasets for quick analysis of potential bleeding instances.
+### Efficiency and Speed: Rapid processing of large CE video datasets for quick analysis of potential bleeding instances.
 
-###Enhanced Accuracy: Utilizing machine learning algorithms to improve the accuracy of bleeding detection, minimizing false positives/negatives.
+### Enhanced Accuracy: Utilizing machine learning algorithms to improve the accuracy of bleeding detection, minimizing false positives/negatives.
 
-###Generalization and Vendor Independence: The project aims for broad applicability, ensuring the model can generalize across different scenarios and equipment.
+### Generalization and Vendor Independence: The project aims for broad applicability, ensuring the model can generalize across different scenarios and equipment.
 
-###Resource Optimization: Automated bleeding detection allows healthcare providers to optimize resources and focus human expertise on complex cases.
+### Resource Optimization: Automated bleeding detection allows healthcare providers to optimize resources and focus human expertise on complex cases.
 
-##How It Helps
-###Improved Patient Outcomes: Early detection contributes to better patient outcomes by enabling timely medical intervention.
+## How It Helps
+### Improved Patient Outcomes: Early detection contributes to better patient outcomes by enabling timely medical intervention.
 
-###Efficient Diagnostic Process: The project enhances the efficiency of the diagnostic process through automated bleeding detection.
+### Efficient Diagnostic Process: The project enhances the efficiency of the diagnostic process through automated bleeding detection.
 
-###Non-Invasive Diagnostic Experience: Patients benefit from a more comfortable and less invasive diagnostic experience compared to traditional endoscopic methods.
+### Non-Invasive Diagnostic Experience: Patients benefit from a more comfortable and less invasive diagnostic experience compared to traditional endoscopic methods.
 
-###Optimized Resource Allocation: Healthcare providers can optimize resources by automating the initial screening process, directing human expertise where it's needed most.
+### Optimized Resource Allocation: Healthcare providers can optimize resources by automating the initial screening process, directing human expertise where it's needed most.
 
-###Contribution to Research: The project's datasets contribute to ongoing research in medical imaging and AI, fostering advancements in understanding and addressing gastrointestinal conditions.
+### Contribution to Research: The project's datasets contribute to ongoing research in medical imaging and AI, fostering advancements in understanding and addressing gastrointestinal conditions.
 ## Evaluation Metrics
 
  ### Classification Metrics
